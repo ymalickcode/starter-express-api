@@ -5,6 +5,7 @@ const http = require('http');
 const querystring = require('querystring');
 
 const app = express();
+app.use(cors());
 const port = 3000;
 
 // Use body-parser middleware to parse request bodies
