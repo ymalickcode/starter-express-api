@@ -2,6 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const https = require('https');
 const http = require('http');
+const cors = require('cors');
 const querystring = require('querystring');
 
 const app = express();
